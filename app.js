@@ -91,7 +91,7 @@ const app = Vue.createApp({
         restartGame() {
             this.playerHealth = 100;
             this.monsterHealth = 100;
-            this.currentRound = 0;
+            this.canUseSpecialAttack = 0;
             this.winner = null;
             this.logMessages = [];
         },
